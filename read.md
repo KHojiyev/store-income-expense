@@ -1,4 +1,5 @@
 hi guys
 
-i added swagger config for using easly 
+i added swagger config for using easily
+ 
 
