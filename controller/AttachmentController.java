@@ -21,17 +21,15 @@ public class AttachmentController {
 
 
     @PostMapping
-    public Response uploadFile(MultipartHttpServletRequest request){
-        return  attachmentService.uploadFile(request);
+    public Response uploadFile(MultipartHttpServletRequest request) {
+        return attachmentService.uploadFile(request);
     }
 
     @GetMapping("/download/{id}")
-    public Response getFile(@PathVariable Integer id, HttpServletResponse response){
-        return attachmentService.downloadFile(id,response);
+    public Response getFile(@PathVariable Integer id, HttpServletResponse response) {
+        return attachmentService.downloadFile(id, response);
 
     }
-
-
 
 
 }

@@ -44,7 +44,4 @@ public class Income {
     private Integer invoiceNumber;
 
 
-
-
-
 }

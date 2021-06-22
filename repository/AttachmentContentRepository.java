@@ -7,7 +7,7 @@ import uzdeveloper.store_income_expense.entity.AttachmentContent;
 import java.util.Optional;
 
 @Service
-public interface AttachmentContentRepository extends JpaRepository<AttachmentContent ,Integer> {
+public interface AttachmentContentRepository extends JpaRepository<AttachmentContent, Integer> {
 
 
     Optional<AttachmentContent> findByAttachment_Id(Integer attachment_id);

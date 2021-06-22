@@ -41,5 +41,4 @@ public class Outcome {
     private Integer invoiceNumber;
 
 
-
 }

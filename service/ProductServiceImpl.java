@@ -21,8 +21,8 @@ public class ProductServiceImpl implements ProductService {
     public Response getOneProduct(Integer id) {
         Optional<Product> optionalProduct = productRepository.findById(id);
         if (optionalProduct.isEmpty())
-            return new Response("such product id was not found",false,null);
-        return new Response("success",true,optionalProduct.get());
+            return new Response("such product id was not found", false, null);
+        return new Response("success", true, optionalProduct.get());
 
     }
 }
